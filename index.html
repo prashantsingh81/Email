@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Email</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong> Ram Ram</strong>
+                        <p>
+                            Umeed hai tum aur ghar wale sab khairiyat se hain. Mujhe tumse ek baat share karni hai jo kab se mere dil mein hai.
+                            Har baar main tumhare ghar aata hoon, tumse milta hoon aur sab ke saath accha waqt bitaata hoon. Lekin mujhe yeh soch kar thoda afsos hota hai ki tum kabhi mere ghar nahi aaye.  
+
+                            Iss baar main chahta hoon ki tum mere ghar Delhi zaroor aao. Tumhare aane se mujhe bohot khushi milegi. Delhi ki sair bhi karenge aur ghar par saath time spend karenge. Tumhare liye main kuch special bhi arrange karunga, jaise tum mere liye karte ho.  
+                            
+                            Ab aur koi bahaana nahi chalega! Time nikalo aur mujhe batao kab aa rhe ho. Main tumhara intezaar kar raha hoon.  
+                            
+                            Apna khayal rakhna, aur jaldi se good news dena ki tum kab aa rahe ho! (Itne aache se lek rha hu ab nhii aae nn phrr ghr aa kr le jaunga).
+                            Tumhara Bada Bhai Prashant  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
